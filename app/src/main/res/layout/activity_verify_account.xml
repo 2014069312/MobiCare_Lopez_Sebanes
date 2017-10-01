@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvVerifyTitle"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="90dp"
         android:fontFamily="sans-serif-condensed"
         android:text="Enter the passcode sent to your device:"
         android:textSize="18sp"
@@ -41,21 +41,26 @@
 
     <Button
         android:id="@+id/btResendCode"
-        android:text="Click here to resend verification code"
+        style="@android:style/Widget.Button.Small"
         android:layout_width="wrap_content"
-        android:layout_height="35dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/etPasscode"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="60dp"
+        android:background="@android:color/transparent"
+        android:text="Click here to resend verification code"
+        android:textColor="#5499C7"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btVerify"
-        android:text="VERIFY ACCOUNT"
-        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btResendCode"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="5dp"
+        android:text="VERIFY ACCOUNT"
+        android:textSize="20sp" />
 
 </RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mobicare.WelcomeMessage"
+    android:background="@drawable/Login">
+
+    <TextView
+        android:id="@+id/tvWelcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Welcome"
+        android:textAllCaps="true"
+        android:textColor="#1B4F72"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvWelcomeMessage"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="(name here)!"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/btContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#5499C7"
+        android:text="Continue"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>
