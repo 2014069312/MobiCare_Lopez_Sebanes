@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mobicare.Login"
-    android:background="@drawable/Login">
+    tools:context="com.example.mobicare.login"
+    android:background="@drawable/login">
 
     <TextView
         android:id="@+id/tvGetStarted"
@@ -127,6 +127,7 @@
         android:layout_below="@id/etCPassword"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
+        android:backgroundTint="#5499C7"
         android:text="CONTINUE" />
 
 </RelativeLayout>
